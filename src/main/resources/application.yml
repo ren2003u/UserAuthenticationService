@@ -1,0 +1,10 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/user
+
+# Server settings - optional, can be adjusted as needed
+server:
+  port: 8080              # Port on which the server will run
+  servlet:
+    context-path: /api    # Base path for the API
